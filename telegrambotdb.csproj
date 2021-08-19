@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="TelegramService1\**" />
+    <Compile Remove="TelegramService\**" />
+    <Compile Remove="TestProject1\**" />
+    <Compile Remove="TopshelfConsole\**" />
+    <EmbeddedResource Remove="TelegramService1\**" />
+    <EmbeddedResource Remove="TelegramService\**" />
+    <EmbeddedResource Remove="TestProject1\**" />
+    <EmbeddedResource Remove="TopshelfConsole\**" />
+    <None Remove="TelegramService1\**" />
+    <None Remove="TelegramService\**" />
+    <None Remove="TestProject1\**" />
+    <None Remove="TopshelfConsole\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiteDB" Version="5.0.11" />
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="Telegram.Bot" Version="16.0.2" />
+    <PackageReference Include="Telegram.Bot.Extensions.Polling" Version="0.2.0" />
+    <PackageReference Include="Topshelf" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
