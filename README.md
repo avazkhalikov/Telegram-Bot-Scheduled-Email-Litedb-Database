@@ -1,5 +1,5 @@
 # Telegram-Bot-Scheduled-Email-Litedb-Database
-Telegram Bot Scheduled Email Litedb Database
+Telegram Bot Scheduled (Topshelf) Email Litedb Database
 
 To Change: 
 Update your telegram token in Program.cs <br>
